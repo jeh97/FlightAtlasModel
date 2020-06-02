@@ -15,6 +15,10 @@
 		16FCB1382486BD3C008C0C0B /* libFlightAtlasModel.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libFlightAtlasModel.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FCB13B2486BD3C008C0C0B /* FlightAtlasModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightAtlasModel.h; sourceTree = "<group>"; };
 		16FCB13D2486BD3C008C0C0B /* FlightAtlasModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightAtlasModel.m; sourceTree = "<group>"; };
+		16FCB14A2486BD87008C0C0B /* Metro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro.swift; sourceTree = "<group>"; };
+		16FCB14B2486BD87008C0C0B /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		16FCB14C2486BD87008C0C0B /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		16FCB14D2486BD87008C0C0B /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +51,30 @@
 		16FCB13A2486BD3C008C0C0B /* FlightAtlasModel */ = {
 			isa = PBXGroup;
 			children = (
+				16FCB1542486BDBE008C0C0B /* Model */,
 				16FCB13B2486BD3C008C0C0B /* FlightAtlasModel.h */,
 				16FCB13D2486BD3C008C0C0B /* FlightAtlasModel.m */,
 			);
 			path = FlightAtlasModel;
+			sourceTree = "<group>";
+		};
+		16FCB1542486BDBE008C0C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16FCB1552486BDC5008C0C0B /* Type */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16FCB1552486BDC5008C0C0B /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				16FCB14A2486BD87008C0C0B /* Metro.swift */,
+				16FCB14B2486BD87008C0C0B /* Airline.swift */,
+				16FCB14C2486BD87008C0C0B /* Route.swift */,
+				16FCB14D2486BD87008C0C0B /* Airport.swift */,
+			);
+			path = Type;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
